@@ -1,6 +1,6 @@
 const BlogContent = ({content})=>{
     return (
-    <div className = "blog-list">
+    <div className = "blog-content">
             <h2>{content}</h2>
     </div>
     );
