@@ -65,4 +65,5 @@
     align-self: 'stretch';
     color: #1a0e11;
     margin-bottom: 8px;
+    white-space: pre-wrap;
 }

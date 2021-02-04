@@ -1,14 +1,21 @@
 import Home from "./Home"
 import Top from "./Top"
 import Below from "./Below"
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+    <div className="App">      
       <Top/>
       <Home/>
-      <Below/>
+      <Switch>
+        <Route path="/">
+          <Below/>
+        </Route>
+      </Switch>
     </div>
+    </Router>
   );
 }
 
